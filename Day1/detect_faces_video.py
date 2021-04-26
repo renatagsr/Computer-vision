@@ -26,7 +26,7 @@ time.sleep(2.0)
 while True:
     #Grab the frame from the threaded video stream and resize it to have a maximum width of 400 pixels
     frame = vs.read()
-    frame = imutils.resize(frame, width=400)
+    frame = imutils.resize(frame, width=1200, height=12000)
 
     #Grab the fra dimension and convert it to a bloob
     (h, w) = frame.shape[:2]
